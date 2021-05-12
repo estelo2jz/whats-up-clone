@@ -11,7 +11,7 @@ import './App.css';
 function App() {
   
   // useState(null) will make you go to the LOGIN page
-  const [{user}, dispatch] = useStateValue(null);
+  const [{user}, dispatch] = useStateValue();
   return (
     // BEM naming convention
     <div className="app">
